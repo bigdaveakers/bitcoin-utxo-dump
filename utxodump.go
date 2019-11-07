@@ -27,7 +27,7 @@ func main() {
     }
 
     // Set default chainstate LevelDB and output file
-    defaultfolder := fmt.Sprintf("%s/.bitcoin/chainstate/", os.Getenv("HOME")) // %s = string
+    defaultfolder := fmt.Sprintf("%s/.btcprivate/chainstate/", os.Getenv("HOME")) // %s = string
     defaultfile := "utxodump.csv"
 
     // Command Line Options (Flags)
